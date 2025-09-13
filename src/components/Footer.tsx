@@ -102,7 +102,7 @@ const Footer: React.FC = () => {
               
               <li>
                 <a
-                  href="#"
+                  href="https://github.com/daxhielp/portfolio"
                   className="text-gray-400 hover:text-blue-400 transition-colors flex items-center gap-1"
                 >
                   Portfolio
@@ -117,8 +117,7 @@ const Footer: React.FC = () => {
         {/* Bottom Section */}
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center gap-2 text-gray-400 mb-4 md:mb-0">
-            
-            <span>Made by Daxhiel Perugorria Ruciel</span>
+            <span>Made by  Daxhiel Perugorria Ruciel</span>
           </div>
           
           <div className="text-gray-400 text-sm">

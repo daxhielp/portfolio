@@ -17,7 +17,7 @@ const Projects: React.FC = () => {
       id: 2,
       title: 'FlappyBot',
       description: 'An AI agent trained with NeuroEvolution of Augmenting Topolgies (NEAT) to play a version of the flappy bird game.',
-      image: 'https://www.google.com/imgres?q=flappy%20bird&imgurl=https%3A%2F%2Fsource.roboflow.com%2FdDBYXGEHgyQ7aXOoFOPR1HzzSEh1%2F1J4gEYPVBQ6AHx2WcmWj%2Foriginal.jpg&imgrefurl=https%3A%2F%2Funiverse.roboflow.com%2Fai-and-game-programming%2Fflappy-bird-szoat&docid=p4VJJ_fi-RHhUM&tbnid=F28LAt40Ho_d1M&vet=12ahUKEwjS1KW5g9WPAxU-gmoFHSUuMJ0QM3oECBcQAA..i&w=480&h=638&hcb=2&ved=2ahUKEwjS1KW5g9WPAxU-gmoFHSUuMJ0QM3oECBcQAA',
+      image: 'https://live.staticflickr.com/65535/49203125457_a0184cae7a_o.png',
       technologies: ['Python', 'Neural Networks', 'Reinforcement Learning'],
       githubUrl: null,
       liveUrl: null,

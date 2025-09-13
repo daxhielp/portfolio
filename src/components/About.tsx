@@ -1,5 +1,5 @@
 import React from 'react';
-import { Globe, Smartphone, Users } from 'lucide-react';
+import { Globe, Computer, Users } from 'lucide-react';
 
 const About: React.FC = () => {
   const skills = [
@@ -10,9 +10,9 @@ const About: React.FC = () => {
       color: 'bg-blue-500'
     },
     {
-      icon: <Smartphone className="w-8 h-8" />,
-      title: 'Mobile Development',
-      description: 'Flutter, Progressive Web Apps',
+      icon: <Computer className="w-8 h-8" />,
+      title: 'System Design',
+      description: 'Java, System Architecture',
       color: 'bg-purple-500'
     },
     {
@@ -32,7 +32,7 @@ const About: React.FC = () => {
           </h2>
           <div className="w-24 h-1 bg-blue-600 mx-auto mb-8"></div>
           <p className="text-lg text-gray-600 dark:text-gray-400 max-w-3xl mx-auto leading-relaxed">
-            I'm an aspiring software engineer with a passion for building innovative applications.
+            I'm a software engineer with a passion for building innovative applications.
             
           </p>
         </div>

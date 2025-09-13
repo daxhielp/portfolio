@@ -38,7 +38,7 @@ const Contact: React.FC = () => {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12">
+        <div className="flex flex-row sm:flex-row gap-12">
           {/* Contact Information */}
           <div>
             <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-8">

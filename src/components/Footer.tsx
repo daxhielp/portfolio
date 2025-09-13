@@ -102,7 +102,7 @@ const Footer: React.FC = () => {
               
               <li>
                 <a
-                  href="https://github.com/daxhielp/portfolio"
+                  href="https://github.com/daxhielp/portfolio/"
                   className="text-gray-400 hover:text-blue-400 transition-colors flex items-center gap-1"
                 >
                   Portfolio

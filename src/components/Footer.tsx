@@ -90,7 +90,7 @@ const Footer: React.FC = () => {
             <ul className="space-y-2">
               <li>
                 <a
-                  href="../../assets/resume.pdf"
+                  href="https://docs.google.com/document/d/14z4d4w9BMfGHr-LIFkIsVIKHOJvHFJ2_l6TCpYb2rwE/edit?usp=drive_link"
                   className="text-gray-400 hover:text-blue-400 transition-colors flex items-center gap-1"
                   download
                   aria-label="Download Resume"

@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowDown, ExternalLink, Github, Linkedin, Mail } from 'lucide-react';
+import { ArrowDown, Github, Linkedin, Mail } from 'lucide-react';
 
 const Hero: React.FC = () => {
   const scrollToSection = (sectionId: string) => {
@@ -49,7 +49,6 @@ const Hero: React.FC = () => {
               </button>
               
               <button className="px-8 py-4 border-2 border-blue-600 text-blue-600 dark:text-blue-400 dark:border-blue-400 hover:bg-blue-600 hover:text-white dark:hover:bg-blue-400 dark:hover:text-gray-900 font-semibold rounded-lg transition-all duration-300 flex items-center gap-2">
-                <ExternalLink size={20} />
                 <a href='https://docs.google.com/document/d/14z4d4w9BMfGHr-LIFkIsVIKHOJvHFJ2_l6TCpYb2rwE/edit?usp=drive_link' target='_blank'>Open Resume</a>
               </button>
             </div>

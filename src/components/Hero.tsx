@@ -49,7 +49,7 @@ const Hero: React.FC = () => {
               </button>
               
               <button className="px-8 py-4 border-2 border-blue-600 text-blue-600 dark:text-blue-400 dark:border-blue-400 hover:bg-blue-600 hover:text-white dark:hover:bg-blue-400 dark:hover:text-gray-900 font-semibold rounded-lg transition-all duration-300 flex items-center gap-2">
-                <a href='https://docs.google.com/document/d/14z4d4w9BMfGHr-LIFkIsVIKHOJvHFJ2_l6TCpYb2rwE/edit?usp=drive_link' target='_blank'>Open Resume</a>
+                <a href='https://docs.google.com/document/d/15NL-Z0hT5WCBf9XfoNlPBPLkK4J4u9r9FAP9BFD8czs/edit?usp=sharing' target='_blank'>Open Resume</a>
               </button>
             </div>
 

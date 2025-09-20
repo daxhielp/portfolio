@@ -50,7 +50,7 @@ const Header: React.FC<HeaderProps> = ({ darkMode, toggleDarkMode }) => {
               onClick={() => scrollToSection('home')}
               className="text-2xl font-bold text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 transition-colors"
             >
-              Daxhiel P
+              Daxhiel P.
             </button>
           </div>
 

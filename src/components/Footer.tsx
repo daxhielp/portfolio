@@ -111,11 +111,11 @@ const Footer: React.FC = () => {
           </div>
         </div>
 
-        <hr className="border-gray-800 my-8" />
+        <hr className="border-gray-800 mt-8 mb-6" />
 
         {/* Bottom Section */}
-        <div className="flex flex-row justify-between items-center">
-          <div className="flex gap-2 text-gray-400 mb-4 md:mb-0">
+        <div className="flex flex-col sm:flex-row justify-center items-center text-center">
+          <div className="flex gap-2 text-gray-400">
             <span>Made by  Daxhiel Perugorria Ruciel</span>
           </div>
         </div>

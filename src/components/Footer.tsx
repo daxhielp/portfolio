@@ -124,7 +124,6 @@ const Footer: React.FC = () => {
         <div className="mt-6 pt-6 border-t border-gray-800 text-center">
           <p className="text-gray-500 text-sm">
             This portfolio is built with React, TypeScript, Tailwind CSS, and Node.js. 
-            Deployed with modern CI/CD practices.
           </p>
         </div>
       </div>

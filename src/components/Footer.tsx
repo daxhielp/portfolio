@@ -2,7 +2,6 @@ import React from 'react';
 import { Github, Linkedin, Mail, ExternalLink } from 'lucide-react';
 
 const Footer: React.FC = () => {
-  const currentYear = new Date().getFullYear();
 
   const socialLinks = [
     {
@@ -115,13 +114,9 @@ const Footer: React.FC = () => {
         <hr className="border-gray-800 my-8" />
 
         {/* Bottom Section */}
-        <div className="flex flex-col md:flex-row justify-between items-center">
-          <div className="flex items-center gap-2 text-gray-400 mb-4 md:mb-0">
+        <div className="flex flex-row justify-between items-center">
+          <div className="flex gap-2 text-gray-400 mb-4 md:mb-0">
             <span>Made by  Daxhiel Perugorria Ruciel</span>
-          </div>
-          
-          <div className="text-gray-400 text-sm">
-            © {currentYear} Daxhiel Perugorria Ruciel. All rights reserved.
           </div>
         </div>
 

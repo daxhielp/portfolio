@@ -70,15 +70,12 @@ const Contact: React.FC = () => {
               ))}
             </div>
 
-            <div className="bg-gradient-to-br from-blue-600 to-purple-600 p-6 rounded-xl text-white">
-              <h4 className="text-xl font-bold mb-4">Ready to Start?</h4>
+            <div className="bg-gradient-to-br from-blue-600 to-purple-600 p-6 rounded-xl text-white h-fit w-8/12">
+              <h4 className="text-xl font-bold mb-4">Let's Connect!</h4>
               <p className="mb-4">
-                I'm currently available for new projects and collaborations. 
-                Let's discuss how we can create something exceptional together.
+                I'd love to get in contact with you. Whether you have a project idea, collaboration opportunity, or just want to say hello, feel free to reach out!
               </p>
               <ul className="space-y-2 text-sm">
-                <li>✓ Quick response time</li>
-                <li>✓ Flexible engagement models</li>
               </ul>
             </div>
           </div>

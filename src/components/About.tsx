@@ -4,16 +4,16 @@ import { Globe, Computer, Users } from 'lucide-react';
 const About: React.FC = () => {
   const skills = [
     {
-      icon: <Globe className="w-8 h-8" />,
-      title: 'Frontend Development',
-      description: 'React, TypeScript, Tailwind CSS, Next.js',
-      color: 'bg-blue-500'
-    },
-    {
       icon: <Computer className="w-8 h-8" />,
       title: 'System Design',
       description: 'Java, System Architecture',
       color: 'bg-purple-500'
+    },
+    {
+      icon: <Globe className="w-8 h-8" />,
+      title: 'Frontend Development',
+      description: 'React, TypeScript, Tailwind CSS, Next.js',
+      color: 'bg-blue-500'
     },
     {
       icon: <Users className="w-8 h-8" />,
@@ -32,7 +32,7 @@ const About: React.FC = () => {
           </h2>
           <div className="w-24 h-1 bg-blue-600 mx-auto mb-8"></div>
           <p className="text-lg text-gray-600 dark:text-gray-400 max-w-3xl mx-auto leading-relaxed">
-            I'm a software engineer with a passion for building innovative applications.
+            I'm an aspiring software engineer with a passion for building innovative applications and learning new technologies.
             
           </p>
         </div>
@@ -54,7 +54,7 @@ const About: React.FC = () => {
                 exploring new frameworks.
               </p>
               <p className="leading-relaxed">
-                My goal is to create applications that bring not only deliver results but also bring people together.
+                My goal is to create applications that not only solve problems, but also bring people together.
               </p>
             </div>
           </div>

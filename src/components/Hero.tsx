@@ -25,7 +25,7 @@ const Hero: React.FC = () => {
           {/* Main Content */}
           <div className="max-w-4xl mx-auto">
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-900 dark:text-white mb-6">
-              Hi, I'm{' '}
+              Hi! I'm {' '}
               <span className="text-blue-600 dark:text-blue-400">
                 Daxhiel Perugorria
               </span>
@@ -36,7 +36,7 @@ const Hero: React.FC = () => {
             </h2>
             
             <p className="text-lg md:text-xl text-gray-600 dark:text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">
-              I create innovative software solutions that solve real-world problems. With a passion for coding and a commitment to excellence, I strive to deliver high-quality applications that enhance user experiences and drive business success.
+              
             </p>
 
             {/* Action Buttons */}

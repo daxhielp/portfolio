@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { ExternalLink, Github, Calendar, X } from 'lucide-react';
 
+import kwiiImg from '../../assets/kwii.jpg';
+
 type Project = {
   id: number;
   title: string;
@@ -25,7 +27,7 @@ const Projects: React.FC = () => {
         'A fully interpreted programming language built in java. Similar to python and javascript, Kwii is easy!',
       extendedDescription:
         'Kwii is an interpreted language with first-class functions and a REPL for experimentation. The interpreter implements an AST to parse and evaluate syntax. The language supports variables, control flow, functions, and simple classes.',
-      images: ['../../assets/kwii.jpg'],
+      images: [kwiiImg],
       technologies: [
         'Java',
         'Abstract Syntax Trees',

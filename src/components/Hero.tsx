@@ -1,5 +1,7 @@
 import React from 'react';
 import { ArrowDown, Github, Linkedin, Mail } from 'lucide-react';
+import profileImg from '../../assets/profile.jpg';
+
 
 const Hero: React.FC = () => {
   const scrollToSection = (sectionId: string) => {
@@ -16,7 +18,7 @@ const Hero: React.FC = () => {
           {/* Profile Image */}
           <div className="mb-8">
             <img
-              src="./../assets/profile.jpg"
+              src={profileImg}
               alt="Developer Profile"
               className="w-32 h-32 md:w-40 md:h-40 rounded-full mx-auto shadow-2xl border-4 border-white dark:border-gray-700 object-cover object-top"
             />

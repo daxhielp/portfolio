@@ -82,8 +82,7 @@ const Projects: React.FC = () => {
           </h2>
           <div className="w-24 h-1 bg-blue-600 mx-auto mb-8"></div>
           <p className="text-lg text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
-            Here are some of my recent projects that showcase my skills and expertise in software development.
-            Each project reflects my commitment to quality, innovation, and user experience.
+            Here are some recent projects I've been working on!
           </p>
         </div>
 

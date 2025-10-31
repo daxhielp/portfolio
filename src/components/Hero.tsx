@@ -33,9 +33,9 @@ const Hero: React.FC = () => {
               </span>
             </h1>
             
-            <h2 className="text-xl md:text-2xl lg:text-3xl text-gray-600 dark:text-gray-300 mb-8 font-light">
+            {/*<h2 className="text-xl md:text-2xl lg:text-3xl text-gray-600 dark:text-gray-300 mb-8 font-light">
               Software Engineer and Code Enthusiast
-            </h2>
+            </h2>*/}
             
             <p className="text-lg md:text-xl text-gray-600 dark:text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">
               
@@ -43,16 +43,16 @@ const Hero: React.FC = () => {
 
             {/* Action Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
-              <button
-                onClick={() => scrollToSection('projects')}
-                className="px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300"
-              >
+              <button className="px-8 py-4 border-2 border-blue-600 text-blue-600 dark:text-blue-400 dark:border-blue-400 hover:bg-blue-600 hover:text-white dark:hover:bg-blue-400 dark:hover:text-gray-900 font-semibold rounded-lg transition-all duration-300 flex items-center gap-2">
                 View My Work
               </button>
               
-              <button className="px-8 py-4 border-2 border-blue-600 text-blue-600 dark:text-blue-400 dark:border-blue-400 hover:bg-blue-600 hover:text-white dark:hover:bg-blue-400 dark:hover:text-gray-900 font-semibold rounded-lg transition-all duration-300 flex items-center gap-2">
-                <a href='https://docs.google.com/document/d/15NL-Z0hT5WCBf9XfoNlPBPLkK4J4u9r9FAP9BFD8czs/edit?usp=sharing' target='_blank'>Open Resume</a>
-              </button>
+              {/* <button
+                onClick={() => scrollToSection('projects')}
+                className="px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300"
+              >
+                <a href='/portfolio/assets/daxhiel_resume.pdf' target='_blank'>Open Resume</a>
+              </button> */}
             </div>
 
             {/* Social Links */}

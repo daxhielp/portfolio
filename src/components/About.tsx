@@ -1,26 +1,26 @@
 import React from 'react';
-import { Globe, Computer, Users } from 'lucide-react';
+import { Layers, Computer, TabletSmartphone } from 'lucide-react';
 
 const About: React.FC = () => {
   const skills = [
     {
-      icon: <Computer className="w-8 h-8" />,
-      title: 'System Design',
-      description: 'Java, System Architecture',
-      color: 'bg-purple-500'
-    },
-    {
-      icon: <Globe className="w-8 h-8" />,
-      title: 'Frontend Development',
-      description: 'React, TypeScript, Tailwind CSS, Next.js',
+      icon: <Layers className="w-8 h-8" />,
+      title: 'Fullstack Development',
+      description: 'React, TypeScript, Supabase, Mongo, Express  ',
       color: 'bg-blue-500'
     },
     {
-      icon: <Users className="w-8 h-8" />,
-      title: 'Collaboration',
-      description: 'Git & Github, Mentoring',
+      icon: <TabletSmartphone className="w-8 h-8" />,
+      title: 'Mobile Development',
+      description: 'React-Native, Expo',
+      color: 'bg-purple-500'
+    },
+    {
+      icon: <Computer className="w-8 h-8" />,
+      title: 'System Design',
+      description: 'Java, System Architecture',
       color: 'bg-pink-500'
-    }
+    },
   ];
 
   return (

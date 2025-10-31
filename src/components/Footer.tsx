@@ -48,7 +48,7 @@ const Footer: React.FC = () => {
               Daxhiel Perugorria
             </h3>
             <p className="text-gray-300 mb-6 max-w-md">
-              Software Engineer with a passion for building innovative solutions, providing exceptional user experiences, and connecting people through technology.
+              Computer Science student with a passion for learning and creating.
             </p>
             <div className="flex space-x-4">
               {socialLinks.map((link) => (
